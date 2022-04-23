@@ -2,13 +2,13 @@ const express = require('express')
 const routes = express.Router()
 
 let db = [
-    { '1': {id: 1, Music: 'Intro: Persona', Track: '1'} },
-    { '2': {id: 2, Music: 'Boy With Luv(feat. Halsey)', Track: '2'} },
-    { '3': {id: 3, Music: 'Mikrokosmos', Track: '3'} },
-    { '4': {id: 4, Music: 'Make It Right', Track: '4'} },
-    { '5': {id: 5,Music: 'Home', Track: '5'} },
-    { '6': {id: 6, Music: 'Jamais Vu', Track: '6'} },
-    { '7': {id: 7, Music: 'Dionysus', Track: '7'} },
+    { id: 1, Music: 'Intro: Persona', Track: '1' },
+    { id: 2, Music: 'Boy With Luv(feat. Halsey)', Track: '2'},
+    { id: 3, Music: 'Mikrokosmos', Track: '3' },
+    { id: 4, Music: 'Make It Right', Track: '4' },
+    { id: 5,Music: 'Home', Track: '5' },
+    { id: 6, Music: 'Jamais Vu', Track: '6' },
+    { id: 7, Music: 'Dionysus', Track: '7' },
 ]
 
 // Método GET (Buscar Dados)
